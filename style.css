@@ -51,6 +51,20 @@ body{
     min-height: 19rem;
 }
 
+.instagram-loguin{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.log-insta{
+    max-width: 3rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .logo-insta{
     height: 3rem;
     margin: 10px;
@@ -61,12 +75,14 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
+
 }
 
 .foto-perfil img{
     width: 100px;
     border-radius: 50%;
     overflow: hidden;
+    border: 3px solid #0095f6;
 }
 
 .continue{
@@ -95,7 +111,6 @@ body{
 .link-blue{
     color: #0095f6;
 }
-
 
 .obtenha{
     display: flex;
